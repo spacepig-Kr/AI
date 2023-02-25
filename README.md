@@ -27,16 +27,16 @@
 |The AI square can move up, down, left, right,  |
 |but cannot pass through the walls.             |
 +-----------------------------------------------+
-The code uses the Pygame library to create the  |
-game and the Numpy library to generate random   |
-numbers. The game loop continues until the user |
-closes the window. The AI-controlled square's   |
-movements are determined by a function that     |
-either makes random moves or calculates the     |
-direction vector towards the target rectangle   |
-and moves the AI-controlled square towards it.  |
-The distance between the AI-controlled square   |
-and the green square is calculated, and the     |
-distance values are added to a list for         |
-graphing purposes.                              |
+|The code uses the Pygame library to create the |
+|game and the Numpy library to generate random  |
+|numbers. The game loop continues until the user|
+|closes the window. The AI-controlled square's  |
+|movements are determined by a function that    |
+|either makes random moves or calculates the    |
+|direction vector towards the target rectangle  |
+|and moves the AI-controlled square towards it. |
+|The distance between the AI-controlled square  |
+|and the green square is calculated, and the    |
+|distance values are added to a list for        |
+|graphing purposes.                             |
 +-----------------------------------------------+
